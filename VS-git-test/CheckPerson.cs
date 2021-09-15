@@ -12,5 +12,7 @@ namespace VS_git_test
         {
             Console.WriteLine("Checking the person ...");
         }
+
+        public int Age { get; set; }
     }
 }
