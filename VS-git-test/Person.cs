@@ -12,6 +12,8 @@ namespace VS_git_test
         {
             var random = new Random();
             var output = random.Next(5, 10).ToString();
+
+            Console.WriteLine(NumberGenerator.GenerateNumber(-2,2));
             return output;
         }
     }
