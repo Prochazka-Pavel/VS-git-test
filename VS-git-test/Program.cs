@@ -7,6 +7,7 @@ namespace VS_git_test
         static void Main(string[] args)
         {
             Print1();
+            Console.WriteLine(Person.GiveNumberInString());
             Console.WriteLine("Hello World!");
             Console.ReadLine();
         }
